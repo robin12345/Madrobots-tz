@@ -1,0 +1,239 @@
+// page
+
+.page {
+    margin: 0 auto;
+    width: 1260px;
+    min-height: 800px;
+}
+
+// header
+
+.header {
+    height: 400px;
+    width: 100%;
+}
+.header__inner {
+    content: "";
+    height: 100%;
+    background: url("../images/pictures/header-sushi.png") no-repeat;
+}
+.header__title {
+    padding-top: 111px;
+    text-align: center;
+    color: #fff;
+}
+.header__description {
+    margin-top: 10px;
+    text-align: center;
+}
+.header__search {
+    margin: 77px 0 0 283px;
+}
+
+// title
+
+.title {
+    font-style: italic;
+}
+.title_level_1 {
+    font-size: 35px;
+}
+.title_level_2 {
+    font-size: 24px;
+}
+.title_decoration_dotted {
+    border-bottom: 1px dotted;
+}
+.title_color_orange {
+    color: #f7a278;
+}
+.title_color_orange-light {
+    color: #f7a24f;
+}
+.title_color_green-light {
+    color: #5cbeb9;
+}
+.title_color_red-light {
+    color: #fc5454;
+}
+.title_img_smile_after {
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        right: -27px;
+        bottom: 4px;
+        height: 22px;
+        width: 22px;
+        background: url("../images/smiles/awful.png") no-repeat;
+    }
+}
+
+// search
+
+.search__form {
+    position: relative;
+    display: inline-flex;
+}
+.search__description {
+    margin-bottom: 18px;
+    font-style: italic;
+    font-size: 15px;
+    color: #a9a6a5;
+}
+.search__input {
+    padding: 0 60px 0 18px;
+    width: 500px;
+    height: 60px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 19px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    &:focus {
+        box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
+    }
+}
+.search__button {
+    height: 60px;
+    width: 200px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #fc5454;
+    font-weight: 300;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+    line-height: 60px;
+    font-family: Roboto, Serif;
+    cursor: pointer;
+    &:active {
+        background-color: #4a4949;
+        color: #fff;
+    }
+}
+.search_icon_cross_after {
+    display: inline-block;
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background: url("../images/icons/cross.svg") no-repeat;
+    }
+}
+
+// content
+
+.content {
+    display: inline-flex;
+    margin-top: 50px;
+    padding: 0 160px;
+    width: 1260px;
+    justify-content: center;
+}
+
+// item
+
+.item {
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    &:hover {
+        border-bottom: 3px solid rgba(119, 119, 119, 0.69);
+    }
+}
+
+.item__picture {
+    height: 200px;
+    width: 100%;
+}
+
+.item__description {
+    height: 100px;
+    width: 100%;
+    box-shadow: 2px 6px 25px rgba(212, 212, 212, 0.55);
+}
+
+.item__title {
+    text-align: center;
+    padding-top: 23px;
+}
+
+.item__group-name {
+    margin-right: 7px;
+    font-size: 29px;
+}
+
+.item__group-number {
+    position: absolute;
+    font-size: 16px;
+    color: #999;
+}
+
+.item__counter {
+    margin-top: 9px;
+}
+
+.item_position_middle {
+    margin: 0 20px;
+}
+
+.item_icon_pizza {
+    background: url("../images/icons/pizza.svg") 85px 35px no-repeat;
+}
+
+.item_icon_sushi {
+    background: url("../images/icons/sushi.svg") 85px 35px no-repeat;
+}
+
+.item_icon_asia {
+    background: url("../images/icons/rice.svg") 85px 35px no-repeat;
+}
+
+.item_type_sushi {
+    background: url("../images/pictures/item-first.png") no-repeat;
+}
+
+.item_type_pizza {
+    background: url("../images/pictures/item-second.png") no-repeat;
+}
+
+.item_type_asia {
+    background: url("../images/pictures/item-third.png") no-repeat;
+}
+
+// counter
+
+.counter {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.counter__name {
+    font-size: 18px;
+    color: #999;
+}
+.counter__number {
+    padding-left: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+}
+
+// error
+
+.error {
+    position: absolute;
+    display: none;
+    font-style: italic;
+    top: -33px;
+    right: 0;
+    border-bottom: 1px dashed #fff;
+    color: #fc5454;
+    font-size: 15px;
+}

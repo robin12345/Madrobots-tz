@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Madrobots tz</title>
+    <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/main.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <div class="header__inner">
+                <div class="header__title">
+                    <h1 class="title title_level_1">Сделаем вам вкусно и быстро!</h1>
+                </div>
+                <div class="header__description">
+                    <span class="title title_level_2 title_color_orange">Доставка еды в течении</span>
+                    <span class="title title_level_2 title_decoration_dotted title_color_orange title_img_smile_after">45 минут</span>
+                </div>
+                <div class="header__search">
+                    <div class="search">
+                        <div class="search__description">Введите ваш адрес</div>
+                        <form class="search__form" action="" method="get">
+                            <div class="error">Вы ввели менее трех символов</div>
+                            <div class="search_icon_cross_after">
+                                <input type="text" class="search__input" name="search" placeholder="Например: Мясницкая, 35">
+                            </div><span class="search__button" onclick="eventSubmitForm()">Найти рестораны</span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="item">
+                <div class="item__picture item_type_sushi">
+                    <div class="item__picture item_icon_sushi"></div>
+                </div>
+                <div class="item__description">
+                    <div class="item__title">
+                        <span class="item__group-name title title_color_green-light">Суши</span>
+                        <span class="item__group-number">3</span>
+                    </div>
+                    <div class="item__counter">
+                        <div class="counter">
+                            <div class="counter__name">Заказов сегодня: </div>
+                            <div class="counter__number">69</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item item_position_middle">
+                <div class="item__picture item_type_pizza">
+                    <div class="item__picture item_icon_pizza"></div>
+                </div>
+                <div class="item__description">
+                    <div class="item__title">
+                        <span class="item__group-name title title_color_orange-light">Пицца</span>
+                        <span class="item__group-number">6</span>
+                    </div>
+                    <div class="item__counter">
+                        <div class="counter">
+                            <div class="counter__name">Заказов сегодня: </div>
+                            <div class="counter__number">15</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__picture item_type_asia">
+                    <div class="item__picture item_icon_asia"></div>
+                </div>
+                <div class="item__description">
+                    <div class="item__title">
+                        <span class="item__group-name title title_color_red-light">Азиатская кухня</span>
+                        <span class="item__group-number">7</span>
+                    </div>
+                    <div class="item__counter">
+                        <div class="counter">
+                            <div class="counter__name">Заказов сегодня: </div>
+                            <div class="counter__number">35</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/main.js" type="text/javascript" async charset="utf-8"></script>
+</html>
